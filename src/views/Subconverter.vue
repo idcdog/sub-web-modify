@@ -941,7 +941,7 @@ export default {
     this.isPC = this.$getOS().isPc;
   },
   mounted() {
-    this.tanchuang();
+    // this.tanchuang(); // 已禁用广告弹窗
     this.form.clientType = "clash";
     this.getBackendVersion();
     this.anhei();
